@@ -20,7 +20,7 @@ def create_threat():
     while active:
         message = input(
             '\n'
-            'Enter a threat for analysis? [or enter \'y\' to enter a threat or enter \'n\' to quit]\n'
+            'Enter a threat for analysis? [\'y\' to enter a threat or \'n\' to quit]\n'
         ).strip().lower()
         if message == 'y':
             threat = {
